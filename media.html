@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kris og Viktor i Thailand</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/f48aa408c1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html">Forside</a></li>
+              <li><a href="besoegt.html">Besøgt </a></li>
+              <li><a href="media.html">Media</a></li>
+              <li><a href="rejsende.html">Rejsende</a></li>
+              <li><a href="diverse.html">Diverse</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+<div class="text-box">
+    <h1>media</h1>
+    <p>media</p>
+    <a href="" class="hero-button">visit</a>
+</div>
+
+</section>
+
+
+<section class="fodnote">
+    <h4>Omkring os.</h4>
+    <p>vi hedder...</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+    <p>Lavet med <i class="fa fa-heart-o"></i> af Viktor</p>
+
+</section>
+
+<!-- JavaScript for Toggle menu -->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
