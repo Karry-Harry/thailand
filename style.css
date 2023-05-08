@@ -201,5 +201,5 @@ h3{
 @media(max-width: 700px){
     .madbilled{
         flex-direction: column;
-        width: 350px;
+        width: 300px;
     }
