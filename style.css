@@ -202,5 +202,5 @@ h3{
     .madflyned{
         flex-direction: column;
         width: 400px;
-        position: center;
+        text-align: center;
     }
