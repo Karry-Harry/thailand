@@ -201,6 +201,5 @@ h3{
 @media(max-width: 700px){
     .madflyned{
         flex-direction: column;
-        width: 400px;
-        text-align: center;
+        width: 650px;
     }
