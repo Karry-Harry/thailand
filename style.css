@@ -197,3 +197,9 @@ h3{
         flex-direction: column;
         width: 300px;
     }
+
+@media(max-width: 700px){
+    .madflyned{
+        flex-direction: column;
+        width: 300px;
+    }
