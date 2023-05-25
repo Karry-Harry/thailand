@@ -161,6 +161,7 @@ h4{
 }
 h6{
     color: grey;
+    text-align: right;
 }
 p{
     margin: 10px 0;
