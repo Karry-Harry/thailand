@@ -159,6 +159,12 @@ h4{
     font-weight: 600;
     margin: 10px 0;
 }
+h6{
+    color: grey;
+}
+p{
+    margin: 10px 0;
+}
 .course-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
